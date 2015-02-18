@@ -116,7 +116,7 @@ public class Juego extends Applet implements Runnable, KeyListener {
         addKeyListener(this);
         iPuntos=0;
         iDireccion = 0;
-        iVidas= (int) ((Math.random() * (2)) + 3);
+        iVidas= (int) ((Math.random() * (2)) + 4);
         iCont=0;
         bFin= false;
         bPausa= false;
