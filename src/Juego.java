@@ -249,7 +249,7 @@ public class Juego extends Applet implements Runnable, KeyListener {
             if(basMalo.intersecta(basFantasma)){
                 basFantasma.setX(-(int) (Math.random() * 100));
                 basFantasma.setY((int) (Math.random() * (3 * getHeight() / 4)));
-                iPuntos = iPuntos +1 ;
+                iPuntos = iPuntos + 2 ;
                 adcSonidoChimpy2.play();
             }
         }
