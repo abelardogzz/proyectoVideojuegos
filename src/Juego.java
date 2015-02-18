@@ -109,14 +109,14 @@ public class Juego extends Applet implements Runnable, KeyListener {
         URL urlSonidoChimpy = this.getClass().getResource("monkey2.wav");
         adcSonidoChimpy = getAudioClip (urlSonidoChimpy);
         adcSonidoChimpy.play();
-         URL urlSonidoChimpy2 = this.getClass().getResource("monkey2.wav");
+         URL urlSonidoChimpy2 = this.getClass().getResource("monkey1.wav");
         adcSonidoChimpy2 = getAudioClip (urlSonidoChimpy2);
         adcSonidoChimpy2.play();
         
         addKeyListener(this);
         iPuntos=0;
         iDireccion = 0;
-        iVidas= (int) ((Math.random() * (2)) + 4);
+        iVidas= (int) ((Math.random() * (2)) + 3);
         iCont=0;
         bFin= false;
         bPausa= false;
